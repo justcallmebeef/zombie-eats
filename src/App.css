@@ -41,5 +41,9 @@ img {
 
 .orderContainer {
   margin-left: 30%;
-  margin-top: 10%;
+}
+
+#brain {
+  margin: 5%;
+  display: flex;
 }

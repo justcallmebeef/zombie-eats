@@ -5,6 +5,7 @@ class Order extends Component {
             super() 
             this.state = {
                 messages: [], 
+                toggleColor: true, 
             }
         }
 
@@ -30,7 +31,14 @@ class Order extends Component {
 
         render() {
         return (
+            <div>
+                <div className="row">
+                    <img id="brain" src="https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2017/10/sushi-brain-recipe/x.jpg"></img>
+                    <img id="brain" src="http://www.njfamily.com/7044853(4)(1).jpg"></img>
+                    <img id="brain" src="https://holidays.thefuntimesguide.com/files/zombie-food.jpg"></img>
+                </div>
             <div className="orderContainer">{this.state.messages}</div>
+            </div>
         )
     }
 }
