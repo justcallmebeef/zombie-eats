@@ -41,6 +41,9 @@ img {
 
 .orderContainer {
   margin-left: 30%;
+  width: 500px;
+  border: 2px solid black;
+  padding: 20px;
 }
 
 #brain {
