@@ -37,6 +37,9 @@
 
 img {
   height: 200px;
+}
 
-
+.orderContainer {
+  margin-left: 30%;
+  margin-top: 10%;
 }
