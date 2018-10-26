@@ -7,7 +7,7 @@ import './App.css';
 const AppRouter = () => (
     <Router>
     <div>
-      <nav className="navbar navbar-dark bg-primary">
+      <nav className="navbar navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">Home</Link>
         <Link className="navbar-brand" to="/order/">Order</Link>
       </nav>
